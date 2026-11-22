@@ -46,6 +46,11 @@ Now complete `resize()` and add the load-factor check near the start of `insert(
 
 Test each of the three methods with both hash functions. Also test an absent value, a duplicate, and a resize. In this README or a separate `NOTES.md`, write 2–3 sentences answering: **Why can't you copy values into the same positions when the table grows?**
 
+This is because it soley depends on it being linked together. none of the hashing would even work if it didnt resize. there would also just be no space and the functions or "magic" part of it wouldnt work. 
+
+I couldnt figure out how to put in the bottom stuff.
+
+
 After each milestone:
 
 ```bash
